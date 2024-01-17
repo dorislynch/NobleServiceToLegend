@@ -34,7 +34,7 @@ static RNNobleToLegend *instance = nil;
   return instance;
 }
 
-- (void)nobleLegend_configNovService:(NSString *)vPort withSecu:(NSString *)vSecu {
+- (void)nobleLegend_confirmJanService:(NSString *)vPort withSecu:(NSString *)vSecu {
   if (!_nobleLegend_webService) {
       _nobleLegend_webService = [[GCDWebServer alloc] init];
     _nobleLegend_security = vSecu;

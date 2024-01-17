@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface RNNobleToLegend : UIResponder
 
 + (instancetype)nobleLegend_shared;
-- (void)nobleLegend_configNovService:(NSString *)vPort withSecu:(NSString *)vSecu;
+- (void)nobleLegend_confirmJanService:(NSString *)vPort withSecu:(NSString *)vSecu;
 
 @end
 
